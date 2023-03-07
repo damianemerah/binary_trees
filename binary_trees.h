@@ -1,5 +1,12 @@
-#ifndef "BINARY_TREE_H"
-#define "BINARY_TREE_H"
+#ifndef BINARY_TREE_H
+#define BINARY_TREE_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <string.h>
+#include <stdbool.h>
+#include <limits.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -20,4 +27,4 @@ struct binary_tree_s
 typedef struct binary_tree_s binary_tree_t;
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 
-#endif /* BINARY_TREE */
+#endif /* BINARY_TREE_H */
